@@ -9,12 +9,16 @@
 
         <div class="container-content mt-5">
             <div class="d-flex flex-wrap px-3 mb-3">
-                @foreach ($comics as $comic)
+                @forelse ($comics as $comic)
                     <div class="comics-container">
                         <img src="{{ $comic->image }}" alt="{{ $comic->title }}">
                         <div class="title text-uppercase"> {{ $comic->title }} </div>
                     </div>
-                @endforeach
+                @empty
+                    <div class="text-white w-100 text-center">
+                        <h2>There are no comics available.</h2>
+                    </div>
+                @endforelse
             </div>
             <div class="py-3">
                 <div class="load">LOAD MORE</div>
