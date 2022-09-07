@@ -10848,3 +10848,34 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.container-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #fff;
+}
+header img {
+  width: 70px;
+  padding: 15px 0;
+}
+header ul {
+  margin: 0;
+}
+header ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #58534d;
+  cursor: pointer;
+}
+header ul li.active {
+  color: #0282f9;
+  border-bottom: 3px solid #0282f9;
+}
+header ul li:hover {
+  background-color: #f1f8ff;
+}

@@ -1,2 +1,35 @@
 @import "~bootstrap/scss/bootstrap";
 
+.container-content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #fff;
+
+    img{
+        width: 70px;
+        padding: 15px 0;
+    }
+
+    ul{
+        margin: 0;
+        li{
+            display: inline-block;
+            list-style: none;
+            padding: 10px;
+            font-size: 11px;
+            font-weight: bold;
+            color: #58534d;
+            cursor: pointer;
+            &.active{
+                color: #0282f9;
+                border-bottom: 3px solid #0282f9;
+            }
+            &:hover{
+                background-color: #f1f8ff;
+            }
+        }
+    }
+}
