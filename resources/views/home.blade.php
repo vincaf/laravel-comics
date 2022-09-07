@@ -9,10 +9,12 @@
 
         <div class="container-content mt-5">
             <div class="d-flex flex-wrap px-3 mb-3">
-                <div class="comics-container">
-                    <img src="imageUrl" alt="title">
-                    <div class="title text-uppercase"> title </div>
-                </div>
+                @foreach ($comics as $comic)
+                    <div class="comics-container">
+                        <img src="{{ $comic->image }}" alt="{{ $comic->title }}">
+                        <div class="title text-uppercase"> {{ $comic->title }} </div>
+                    </div>
+                @endforeach
             </div>
             <div class="py-3">
                 <div class="load">LOAD MORE</div>
