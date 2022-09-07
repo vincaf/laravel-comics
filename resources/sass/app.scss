@@ -33,3 +33,63 @@ header{
         }
     }
 }
+
+footer{
+    #navbar_footer{
+        background-image: url("../../public/images/footer-bg.jpg");
+        height: 265px;
+        background-size: cover;
+        overflow: hidden;
+
+        .list{
+            max-width: 400px;
+            display: flex;
+            align-items: flex-start;
+            max-height: 290px;
+            flex-flow: column wrap;
+            font-size: 10px;
+            padding: 20px 0;
+        
+            h4{
+                font-size: 17px;
+                color: #fff;
+                font-stretch: extra-condensed;
+                font-weight: bold;
+            }
+            li{
+            color: #7f7f83;
+            list-style: none;
+            }
+            ul{
+            padding-left: 0;
+            margin-right: 25px;
+            margin-bottom: 29px;
+            }
+        }
+
+        img{
+            height: 430px;
+            position: relative;
+            top: -90px;
+        }
+    }
+
+    #low_footer{
+        background-color: #303030;
+        height: 95px;
+        button{
+            border: 2px solid #0282f9;
+            background-color: #303030;
+            color: #fff;
+            font-size: 14px;
+            padding: 10px;
+        }
+        .follow-us{
+            color: #0282f9;
+            font-weight: bold;
+        }
+        .icon{
+            margin-left: 15px;
+        }
+    }
+}

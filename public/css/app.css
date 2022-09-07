@@ -10879,3 +10879,57 @@ header ul li.active {
 header ul li:hover {
   background-color: #f1f8ff;
 }
+
+footer #navbar_footer {
+  background-image: url("../../public/images/footer-bg.jpg");
+  height: 265px;
+  background-size: cover;
+  overflow: hidden;
+}
+footer #navbar_footer .list {
+  max-width: 400px;
+  display: flex;
+  align-items: flex-start;
+  max-height: 290px;
+  flex-flow: column wrap;
+  font-size: 10px;
+  padding: 20px 0;
+}
+footer #navbar_footer .list h4, footer #navbar_footer .list .h4 {
+  font-size: 17px;
+  color: #fff;
+  font-stretch: extra-condensed;
+  font-weight: bold;
+}
+footer #navbar_footer .list li {
+  color: #7f7f83;
+  list-style: none;
+}
+footer #navbar_footer .list ul {
+  padding-left: 0;
+  margin-right: 25px;
+  margin-bottom: 29px;
+}
+footer #navbar_footer img {
+  height: 430px;
+  position: relative;
+  top: -90px;
+}
+footer #low_footer {
+  background-color: #303030;
+  height: 95px;
+}
+footer #low_footer button {
+  border: 2px solid #0282f9;
+  background-color: #303030;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+}
+footer #low_footer .follow-us {
+  color: #0282f9;
+  font-weight: bold;
+}
+footer #low_footer .icon {
+  margin-left: 15px;
+}
