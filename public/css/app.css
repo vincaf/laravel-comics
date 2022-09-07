@@ -10881,7 +10881,7 @@ header ul li:hover {
 }
 
 footer #navbar_footer {
-  background-image: url("../../public/images/footer-bg.jpg");
+  background-image: url("../../images/footer-bg.jpg");
   height: 265px;
   background-size: cover;
   overflow: hidden;
@@ -10937,7 +10937,7 @@ footer #low_footer .icon {
 main .jumbotron {
   width: 100%;
   height: 320px;
-  background-image: url("../../public/images/jumbotron.jpg");
+  background-image: url("../../images/jumbotron.jpg");
   background-size: cover;
   position: relative;
 }
