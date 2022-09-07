@@ -10933,3 +10933,61 @@ footer #low_footer .follow-us {
 footer #low_footer .icon {
   margin-left: 15px;
 }
+
+main .jumbotron {
+  width: 100%;
+  height: 320px;
+  background-image: url("../../public/images/jumbotron.jpg");
+  background-size: cover;
+  position: relative;
+}
+main .jumbotron .current-series {
+  background-color: #0282f9;
+  color: #fff;
+  width: 165px;
+  padding: 10px;
+  font-weight: bold;
+  position: absolute;
+  top: 300px;
+  left: 260px;
+}
+main #main {
+  background-color: #1c1c1c;
+}
+main .load {
+  color: #fff;
+  background-color: #0282f9;
+  font-size: 12px;
+  font-weight: bold;
+  width: 150px;
+  padding: 5px 20px;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+main #bluebar {
+  background-color: #0282f9;
+  color: #fff;
+}
+main #bluebar img {
+  height: 40px;
+}
+main #bluebar span {
+  padding: 0 10px;
+  font-size: 12px;
+}
+main .comics-container {
+  margin: 10px;
+  width: calc(16.6666666667% - 20px);
+}
+main .comics-container img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .comics-container .title {
+  color: #fff;
+  margin-top: 5px;
+  font-size: 12px;
+}
